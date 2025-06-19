@@ -214,32 +214,68 @@ def update_paper_links(filename):
         with open(filename,"w") as f:
             json.dump(json_data,f)
 
-def update_json_file(filename,data_dict):
-    '''
-    daily update json file using data_dict
-    '''
-    with open(filename,"r") as f:
-        content = f.read()
-        if not content:
-            m = {}
-        else:
-            m = json.loads(content)
+# def update_json_file(filename,data_dict):
+#     '''
+#     daily update json file using data_dict
+#     '''
+#     with open(filename,"r") as f:
+#         content = f.read()
+#         if not content:
+#             m = {}
+#         else:
+#             m = json.loads(content)
 
-    json_data = m.copy()
+#     json_data = m.copy()
 
-    # update papers in each keywords
+#     # update papers in each keywords
+#     for data in data_dict:
+#         for keyword in data.keys():
+#             papers = data[keyword]
+
+#             if keyword in json_data.keys():
+#                 json_data[keyword].update(papers)
+#             else:
+#                 json_data[keyword] = papers
+
+#     with open(filename,"w") as f:
+#         json.dump(json_data,f)
+
+def update_json_file(filename, data_dict):
+    '''
+    Daily update json file using data_dict.
+    If file is missing, empty, or invalid JSON, it will be initialized to {}.
+    '''
+    # Step 1: 尝试读取 JSON 文件
+    if not os.path.exists(filename) or os.path.getsize(filename) == 0:
+        print(f"⚠️ JSON file '{filename}' not found or empty. Initializing new file.")
+        json_data = {}
+    else:
+        with open(filename, "r", encoding="utf-8") as f:
+            content = f.read()
+            if not content.strip():
+                print(f"⚠️ JSON file '{filename}' is blank. Initializing as empty dict.")
+                json_data = {}
+            else:
+                try:
+                    json_data = json.loads(content)
+                except json.JSONDecodeError as e:
+                    print(f"❌ JSONDecodeError in '{filename}': {e}")
+                    print("⚠️ Initializing as empty dict.")
+                    json_data = {}
+
+    # Step 2: 合并 data_dict 中的内容
     for data in data_dict:
-        for keyword in data.keys():
+        for keyword in data:
             papers = data[keyword]
-
-            if keyword in json_data.keys():
+            if keyword in json_data:
                 json_data[keyword].update(papers)
             else:
                 json_data[keyword] = papers
 
-    with open(filename,"w") as f:
-        json.dump(json_data,f)
-
+    # Step 3: 写入文件
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(json_data, f, indent=2, ensure_ascii=False)
+      
 def json_to_md(filename,md_filename,
                task = '',
                to_web = False,
