@@ -99,6 +99,9 @@
     "2408.11344": "|**2024-08-21**|**Clinical Context-aware Radiology Report Generation from Medical Images using Transformers**|Sonit Singh et.al.|[2408.11344](http://arxiv.org/abs/2408.11344)|null|\n",
     "2408.09743": "|**2024-08-19**|**R2GenCSR: Retrieving Context Samples for Large Language Model based X-ray Medical Report Generation**|Xiao Wang et.al.|[2408.09743](http://arxiv.org/abs/2408.09743)|**[link](https://github.com/event-ahu/medical_image_analysis)**|\n",
     "2408.08849": "|**2025-04-16**|**ECG-Chat: A Large ECG-Language Model for Cardiac Disease Diagnosis**|Yubao Zhao et.al.|[2408.08849](http://arxiv.org/abs/2408.08849)|**[link](https://github.com/YubaoZhao/ECG-Chat)**|\n",
-    "2408.07349": "|**2024-08-14**|**Automated Retinal Image Analysis and Medical Report Generation through Deep Learning**|Jia-Hong Huang et.al.|[2408.07349](http://arxiv.org/abs/2408.07349)|null|\n"
+    "2408.07349": "|**2024-08-14**|**Automated Retinal Image Analysis and Medical Report Generation through Deep Learning**|Jia-Hong Huang et.al.|[2408.07349](http://arxiv.org/abs/2408.07349)|null|\n",
+    "2506.19665": "|**2025-06-24**|**Recurrent Visual Feature Extraction and Stereo Attentions for CT Report Generation**|Yuanhe Tian et.al.|[2506.19665](http://arxiv.org/abs/2506.19665)|null|\n",
+    "2506.17645": "|**2025-06-21**|**Histopathology Image Report Generation by Vision Language Model with Multimodal In-Context Learning**|Shih-Wen Liu et.al.|[2506.17645](http://arxiv.org/abs/2506.17645)|null|\n",
+    "2506.17562": "|**2025-06-21**|**LLM-driven Medical Report Generation via Communication-efficient Heterogeneous Federated Learning**|Haoxuan Che et.al.|[2506.17562](http://arxiv.org/abs/2506.17562)|null|\n"
   }
 }
