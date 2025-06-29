@@ -44,6 +44,13 @@ jobs:
           pip install requests
           pip install pyyaml
           
+      - name: Clean up possible merge conflicts
+        run: |
+          git config user.name "${{ env.GITHUB_USER_NAME }}"
+          git config user.email "${{ env.GITHUB_USER_EMAIL }}"
+          git fetch origin
+          git reset --hard origin/main
+          
       - name: Run daily arxiv 
         run: |
           python daily_arxiv.py --update_paper_links
