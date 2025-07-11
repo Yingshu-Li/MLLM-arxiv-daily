@@ -2,13 +2,15 @@
 layout: default
 ---
 
-## Updated on 2025.07.07
+## Updated on 2025.07.11
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Medical Report Generation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-07-09**|**MCA-RG: Enhancing LLMs with Medical Concept Alignment for Radiology Report Generation**|Qilong Xing et.al.|[2507.06992](http://arxiv.org/abs/2507.06992)|null|
+|**2025-07-05**|**Bridging Vision and Language: Optimal Transport-Driven Radiology Report Generation via LLMs**|Haifeng Zhao et.al.|[2507.03908](http://arxiv.org/abs/2507.03908)|null|
 |**2025-07-02**|**$μ^2$ Tokenizer: Differentiable Multi-Scale Multi-Modal Tokenizer for Radiology Report Generation**|Siyou Li et.al.|[2507.00316](http://arxiv.org/abs/2507.00316)|null|
 |**2025-06-26**|**Exploring the Design Space of 3D MLLMs for CT Report Generation**|Mohammed Baharoon et.al.|[2506.21535](http://arxiv.org/abs/2506.21535)|null|
 |**2025-06-24**|**Recurrent Visual Feature Extraction and Stereo Attentions for CT Report Generation**|Yuanhe Tian et.al.|[2506.19665](http://arxiv.org/abs/2506.19665)|null|
