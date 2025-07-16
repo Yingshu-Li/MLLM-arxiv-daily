@@ -2,13 +2,14 @@
 layout: default
 ---
 
-## Updated on 2025.07.14
+## Updated on 2025.07.16
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Medical Report Generation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-07-10**|**Learnable Retrieval Enhanced Visual-Text Alignment and Fusion for Radiology Report Generation**|Qin Zhou et.al.|[2507.07568](http://arxiv.org/abs/2507.07568)|null|
 |**2025-07-09**|**MCA-RG: Enhancing LLMs with Medical Concept Alignment for Radiology Report Generation**|Qilong Xing et.al.|[2507.06992](http://arxiv.org/abs/2507.06992)|null|
 |**2025-07-05**|**Bridging Vision and Language: Optimal Transport-Driven Radiology Report Generation via LLMs**|Haifeng Zhao et.al.|[2507.03908](http://arxiv.org/abs/2507.03908)|null|
 |**2025-07-02**|**$μ^2$ Tokenizer: Differentiable Multi-Scale Multi-Modal Tokenizer for Radiology Report Generation**|Siyou Li et.al.|[2507.00316](http://arxiv.org/abs/2507.00316)|null|
@@ -58,7 +59,7 @@ layout: default
 |**2025-02-13**|**From large language models to multimodal AI: A scoping review on the potential of generative AI in medicine**|Lukas Buess et.al.|[2502.09242](http://arxiv.org/abs/2502.09242)|null|
 |**2025-02-04**|**Medical Multimodal Model Stealing Attacks via Adversarial Domain Alignment**|Yaling Shen et.al.|[2502.02438](http://arxiv.org/abs/2502.02438)|null|
 |**2025-01-13**|**RadAlign: Advancing Radiology Report Generation with Vision-Language Concept Alignment**|Difei Gu et.al.|[2501.07525](http://arxiv.org/abs/2501.07525)|**[link](https://github.com/difeigu/radalign)**|
-|**2025-07-03**|**XGeM: A Multi-Prompt Foundation Model for Multimodal Medical Data Generation**|Daniele Molino et.al.|[2501.04614](http://arxiv.org/abs/2501.04614)|null|
+|**2025-07-14**|**XGeM: A Multi-Prompt Foundation Model for Multimodal Medical Data Generation**|Daniele Molino et.al.|[2501.04614](http://arxiv.org/abs/2501.04614)|null|
 |**2025-01-07**|**Activating Associative Disease-Aware Vision Token Memory for LLM-Based X-ray Report Generation**|Xiao Wang et.al.|[2501.03458](http://arxiv.org/abs/2501.03458)|**[link](https://github.com/event-ahu/medical_image_analysis)**|
 |**2025-01-05**|**GIT-CXR: End-to-End Transformer for Chest X-Ray Report Generation**|Iustin Sîrbu et.al.|[2501.02598](http://arxiv.org/abs/2501.02598)|null|
 |**2024-12-31**|**CRRG-CLIP: Automatic Generation of Chest Radiology Reports and Classification of Chest Radiographs**|Jianfei Xu et.al.|[2501.01989](http://arxiv.org/abs/2501.01989)|**[link](https://github.com/jianfeixu95/csc8639)**|
