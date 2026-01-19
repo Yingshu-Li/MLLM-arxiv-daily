@@ -1,4 +1,4 @@
-## Updated on 2026.01.16
+## Updated on 2026.01.19
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -216,7 +216,7 @@
 |**2023-04-26**|**Towards Medical Artificial General Intelligence via Knowledge-Enhanced Multimodal Pretraining**|Bingqian Lin et.al.|[2304.14204](http://arxiv.org/abs/2304.14204)|**[link](https://github.com/chenzcv7/motor)**|
 |**2023-04-18**|**Token Imbalance Adaptation for Radiology Report Generation**|Yuexin Wu et.al.|[2304.09185](http://arxiv.org/abs/2304.09185)|**[link](https://github.com/woqingdoua/timer)**|
 
-<p align=right>(<a href=#updated-on-20260116>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260119>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
